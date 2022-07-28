@@ -1,0 +1,295 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@300;400;800&display=swap');
+
+* {
+    background-color: #fdf8f0;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    display: inline-block;
+    margin: 0 auto;
+    height: auto;
+}
+
+.landpage-img {
+    padding: 40px 40px 0 40px
+}
+
+.landpage-img img{
+    max-width: 100%;
+    width: 2000px;
+    width: 100%;
+    height: auto;
+}
+
+nav {
+    overflow: hidden;
+    padding: 15px 10px;
+    background-color: rgb(78, 129, 48);
+    text-align: center;
+}
+
+nav a {
+    padding: 5%;
+    text-decoration: none;
+    background-color:transparent;
+    color: #fdf8f0;
+    font-size: medium;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+}
+
+.about {
+    display: inline-block;
+    height: 400px;
+    text-align: center;
+    padding: 2%;
+}
+
+h1 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 800;
+    font-size: x-large;
+    letter-spacing: 10px;
+    padding: 1%;
+}
+
+p {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.text {
+    display: inline;
+    background-color:transparent;
+}
+
+.recipes {
+    padding: 2%;
+}
+
+#recipes {
+    text-align: center;
+}
+
+.recipe-gallery {
+    display: flex;
+    max-width: 100%;
+    overflow: auto;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.gallery {
+    margin: 40px;
+    margin-bottom: 15px;
+    border: 5px solid rgb(78, 129, 48);
+    position: center;
+    background-color: #fdf8f0;
+    max-width:1500px;
+    width: 25%;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+}
+
+.description {
+    padding: 10px;
+    background-color: white;
+    text-align: center;
+}
+
+.description h4 {
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.description p {
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+button:hover, button:focus {
+    background-color: #ccc;
+    outline: none;
+}
+
+.add-to-cart {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    background-color: white;
+    color: black;
+    border: 1px solid rgb(78, 129, 48);
+}
+
+.reviews {
+    background-color: white;
+    padding-bottom: 3%;
+    padding-top: 1%;
+}
+
+.reviews h1 {
+    background-color: white;
+    padding-top: 2%;
+    text-align: center;
+}
+
+.review-slider {
+    background-color: white;
+    display: flex;
+    max-width: 100%;
+    width: 900px;
+    margin: auto;
+    overflow: auto;
+    text-align: center;
+    padding: 1%;
+    overflow-y:scroll ;
+}
+
+
+.review-item {
+    margin: 50px;
+    margin-bottom: 60px;
+    position: center;
+    background-color: white;
+    width: 300px;
+}
+
+.review-item img {
+    width: 200px;
+    height: auto;
+    padding: 20px;
+    background-color: white;
+}
+
+.testimonial {
+    padding: 10px;
+    background-color: white;
+    font-family: 'Red Hat Display', sans-serif;
+    text-align: center;
+}
+
+.testimonial-star-ranking{
+    background-color: white;
+}
+
+.testimonial-user h4 {
+    background-color: white;
+    font-weight: 800;
+    letter-spacing: 4px;
+}
+
+.testimonial-quote p {
+    background-color: white;
+    font-weight: 300;
+    letter-spacing: 4px;
+}
+
+.testimonial p i {
+    background-color: white;
+}
+
+.contact-form {
+    height: auto;
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 800;
+    letter-spacing: 4px;
+    padding-top: 1%;
+    padding-bottom: 40px;
+}
+
+.contact label {
+    font-weight: 200;
+    font-size: smaller;
+}
+
+form {
+    align-items: center;
+    text-align: left;
+    margin: 0 auto;
+    width: 400px
+}
+
+input[type=text], textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+    background-color: white;
+}
+
+input[type=submit] {
+    border: 1px solid rgb(78, 129, 48);
+    background-color: white;
+    border-radius: 4px;
+}
+
+#contact-text {
+    font-weight: 400;
+}
+
+#text-area {
+    height: 200px;
+}
+
+footer {
+    height: 150px;
+    background-color: rgb(78, 129, 48);
+    text-align: center;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer h4 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 400;
+    letter-spacing: 4px;
+    color: #fdf8f0;
+    background-color: transparent;
+    padding-top: 4%;
+}
+
+footer h5 {
+    font-family: 'Red Hat Display', sans-serif;
+    font-weight: 300;
+    letter-spacing: 4px;
+    color: #fdf8f0;
+    background-color: transparent;
+    padding-top: 2%;
+}
+
+@media screen and (max-width: 750px) {
+    nav a {
+        float: none;
+        display: block;
+        text-align: left;
+        font-size: smaller;
+    }
+
+    .logo img {
+        max-width: 100%;
+        width: 400px;
+        height: auto;
+    }
+}
